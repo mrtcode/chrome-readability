@@ -1,0 +1,8 @@
+{
+  "name": "chrome-readability",
+  "version": "0.1",
+  "description": "Headless Chrome + Readability.js",
+  "dependencies": {
+    "chrome-remote-interface": ""
+  }
+}
