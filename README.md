@@ -1,6 +1,7 @@
 # Extract online articles with Readability and headless Chrome
 
 A simple tool that:
+
 1. Attaches to a running Chrome instance
 2. Navigates to a given url
 3. Injects Readbility.js
@@ -21,9 +22,11 @@ https://www.google.com/chrome/browser/?platform=linux&extra=devchannel
 
 Headless Chrome isn't executed automatically, because it's more reliable to run and manage its process separately.
 
-> google-chrome-unstable --headless --user-data-dir=/tmp/chrome-new-data --remote-debugging-port=9222
+```
+google-chrome-unstable --headless --user-data-dir=/tmp/chrome-new-data --remote-debugging-port=9222
 
-> git clone https://github.com/mrtcode/chrome-readability
+git clone https://github.com/mrtcode/chrome-readability
+```
 
 ```js
 var chromeReadability = require('./chrome-readability');
